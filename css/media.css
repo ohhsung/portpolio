@@ -1,0 +1,419 @@
+.skill-wrap.media {
+    display: none;
+}
+
+@media screen and (max-width: 1800px) {
+    .side-project .item .img img {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .about-me .content .id-img {
+        margin-bottom: 30px;
+        width: 250px;
+        height: 333px;
+    }
+
+    .about-me .content .id-info {
+        font-size: 18px;
+    }
+
+    .about-me .content {
+        gap: 80px;
+    }
+
+    .about-me .certificate .title,
+    .about-me .education .title {
+        font-size: 20px;
+    }
+
+    .about-me .certificate .title,
+    .about-me .education .title {
+        margin-bottom: 30px;
+    }
+
+    .about-me .item-wrap {
+        font-size: 18px;
+        padding-left: 30px;
+    }
+
+    .about-me .certificate {
+        margin-bottom: 80px;
+    }
+
+    .about-me .content .item .info {
+        font-size: 16px;
+    }
+}
+
+/* ####### 중앙 정렬 -> 좌측정렬로 변경 ####### */
+@media screen and (max-width: 1400px) {
+    .works .sub-title {
+        font-size: 30px;
+    }
+
+    .works .sub-title .skill-wrap {
+        margin-top: 30px;
+    }
+
+    .works .sub-title .skill {
+        font-size: 20px;
+    }
+
+    .slide-text .scroll-container > .split-text > div {
+        font-size: 40px;
+    }
+
+    .about-me .content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .about-me .content .id-img {
+        margin: 0;
+    }
+
+    .about-me .content .wrap:first-child {
+        display: flex;
+        align-items: flex-end;
+        gap: 80px;
+    }
+
+    .main-project .content .item > .img {
+        width: 100%;
+    }
+
+    .main-project .project-contents {
+        align-items: flex-start;
+    }
+
+    .side-project .item .img img {
+        padding: 0 30px;
+    }
+
+    .side-project .inner .content .wrap {
+        padding: 60px 0;
+    }
+
+    .contact .contact_area {
+        justify-content: flex-start;
+        height: 200px;
+    }
+
+    .contact .contact_area .text_area {
+        flex: 0 0 auto;
+        padding: 0 100px;
+    }
+
+    .contact .contact_area .text_area p {
+        font-size: 30px;
+    }
+
+    .contact .contact_area .link_area {
+        width: 100%;
+    }
+
+    .contact .contact_area .link_area .box .item img {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .header .inner {
+        padding: 0 30px;
+    }
+
+    .intro-title {
+        left: 30px;
+    }
+
+    .works-title {
+        padding: 80px 30px;
+    }
+
+    .section {
+        padding: 80px 30px;
+    }
+
+    .section.slide-text {
+        padding-bottom: 0;
+    }
+
+    .section.side-project {
+        padding-bottom: 50px;
+    }
+
+    .section.design {
+        padding: 0;
+    }
+
+    .about-me .content {
+        padding-top: 40px;
+        gap: 40px;
+    }
+
+    .about-me .content .wrap:first-child {
+        gap: 40px;
+    }
+
+    .about-me .certificate {
+        margin-bottom: 40px;
+    }
+
+    .about-me .skill-wrap.media {
+        display: block;
+    }
+
+    .about-me .skill-wrap.media .skill {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 40px 0 20px;
+    }
+
+    .about-me .skill-wrap.media .icon_area {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-left: 20px;
+    }
+
+    .main-project .tabs {
+        padding: 40px 0;
+    }
+
+    .main-project .project-contents,
+    .main-project .content .wrap {
+        gap: 50px;
+    }
+
+    .main-project .text-btn {
+        padding: 40px 10px 50px;
+    }
+
+    .side-project .inner .content {
+        padding-top: 40px;
+    }
+
+    .design .title-text {
+        padding: 80px 30px 40px;
+    }
+
+    .contact .contact_area {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .contact .contact_area .text_area {
+        padding: 0;
+        line-height: 3;
+    }
+
+    .contact .contact_area .link_area {
+        border-top: 1px solid #ddd;
+    }
+
+    .contact .contact_area .link_area .box .item {
+        height: 150px;
+    }
+
+    .footer {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 968px) {
+    .header {
+        height: 60px;
+    }
+
+    .header .logo {
+        font-size: 25px;
+    }
+
+    .header .inner .gnb {
+        display: none;
+    }
+
+    .about-me .content .id-img {
+        width: 200px;
+        height: 267px;
+    }
+
+    .about-me .content .id-info {
+        font-size: 16px;
+    }
+
+    .about-me .content .wrap:first-child {
+        gap: 40px;
+    }
+
+    .about-me .item-wrap {
+        font-size: 16px;
+    }
+
+    .about-me .content .item {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .about-me .content .item .info {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .btn-1 {
+        font-size: 16px;
+        padding: 10px 18px;
+    }
+
+    .main-project .item .text {
+        gap: 15px;
+    }
+
+    .btn-2 {
+        font-size: 16px;
+        padding: 10px 18px;
+    }
+
+    .btn-2 .qrcode {
+        width: 16px;
+    }
+
+    .footer {
+        line-height: 60px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .side-project .inner .content {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .side-project .item {
+        width: 100%;
+    }
+
+    .side-project .item .img {
+        width: calc(100% - 30px);
+    }
+
+    .side-project .item .img img {
+        height: auto;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slide-text .scroll-container > .split-text > div {
+        font-size: 30px;
+    }
+
+    .section .inner .title-text .title {
+        font-size: 30px;
+    }
+
+    .about-me .content .wrap {
+        width: 100%;
+    }
+
+    .about-me .content .wrap:first-child {
+        padding-bottom: 40px;
+        flex-direction: column;
+        align-items: flex-start;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .about-me .item-wrap {
+        border: none;
+        padding: 0;
+        gap: 15px;
+    }
+
+    .about-me .certificate .title,
+    .about-me .education .title {
+        margin-bottom: 15px;
+    }
+
+    .about-me .content .item .what {
+        line-height: 1.6;
+    }
+
+    .about-me .content .item .date {
+        display: none;
+    }
+
+    .about-me .skill-wrap.media .icon_area {
+        padding: 0;
+    }
+
+    .about-me .skill-wrap.media .icon_area img {
+        width: 30px;
+        object-fit: contain;
+    }
+
+    .section .message {
+        font-size: 16px;
+    }
+
+    .main-project .item .text {
+        gap: 12px;
+    }
+
+    .main-project .item .text .title {
+        font-size: 25px;
+    }
+
+    .main-project .item .text .sub {
+        font-size: 18px;
+    }
+
+    .main-project .item .text .hash {
+        font-size: 16px;
+    }
+
+    .main-project .item .btn-wrap {
+        flex-wrap: wrap;
+    }
+
+    .contact .contact_area .text_area p {
+        font-size: 20px;
+    }
+
+    .contact .contact_area .link_area .box .item {
+        height: 100px;
+    }
+
+    .contact .contact_area .link_area .box .item img {
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .section {
+        padding: 60px 20px;
+    }
+
+    .about-me .content .item {
+        gap: 5px;
+    }
+
+    .side-project .inner .content {
+        row-gap: 60px;
+    }
+
+    .section.side-project {
+        padding-bottom: 20px;
+    }
+
+    .design .title-text {
+        padding: 60px 20px 40px;
+    }
+
+    .contact {
+        padding-top: 60px;
+    }
+}

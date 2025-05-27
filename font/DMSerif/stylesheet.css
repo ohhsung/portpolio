@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'DM Serif Text';
+    src: url('DMSerifText-Regular.eot');
+    src: url('DMSerifText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('DMSerifText-Regular.woff2') format('woff2'),
+        url('DMSerifText-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Serif Text';
+    src: url('DMSerifText-Italic.eot');
+    src: url('DMSerifText-Italic.eot?#iefix') format('embedded-opentype'),
+        url('DMSerifText-Italic.woff2') format('woff2'),
+        url('DMSerifText-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+

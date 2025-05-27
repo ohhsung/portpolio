@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="ko" class="lenis">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5SUNS's Portfolio</title>
+
+    <!-- 메인 CSS -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+
+    <!-- 라이브러리 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="https://assets.codepen.io/16327/ScrambleTextPlugin3.min.js"></script>
+    <script src="https://assets.codepen.io/16327/SplitText3.min.js"></script>
+    <!-- <script src="https://unpkg.com/lenis@1.1.5/dist/lenis.min.js"></script> -->
+
+    <!-- 메인 JS -->
+    <script src="js/main.js" defer=""></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="inner">
+            <h1 class="logo scramble-text">
+                <a href="index.html">5SUNG</a>
+            </h1>
+
+            <nav class="nav">
+                <ul class="gnb">
+                    <li>
+                        <a href="#" class="header-btn header-top-btn active">
+                            Top
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="header-btn header-about-btn">
+                            About Me
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="header-btn header-main-btn">
+                            Main Project
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="header-btn header-side-btn">
+                            Side Project
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="header-btn header-design-btn">
+                            Design
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="header-btn header-contact-btn">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- inner -->
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="sticky">
+                <div class="intro-bg">
+                    <video src="video/intro.mp4" autoplay loop muted></video>
+                </div>
+
+                <div class="intro-title">
+                    <p class="publisher char gsap-text">PUBLISHER</p>
+                    <p class="portfolio char gsap-text">PORTFOLIO</p>
+                </div>
+            </div>
+            <!-- sticky -->
+        </section>
+        <!-- intro -->
+
+        <section class="works">
+            <div class="sticky">
+                <div class="works-title-wrap">
+                    <div class="works-title">
+                        <p class="publisher">PUBLISHER</p>
+                        <p class="portfolio">PORTFOLIO</p>
+
+                        <div class="sub-title">
+                            <!-- <p>새로운 기술을 배우고</p> -->
+                            <!-- <p>발전하는 퍼블리셔</p> -->
+                            <p>Learning new technologies</p>
+                            <p>Growing as a publisher</p>
+
+                            <div class="skill-wrap">
+                                <p class="skill">Can do skills</p>
+                                <div class="icon_area">
+                                    <img src="img/icon/icon_html.png" alt="icon_html" />
+                                    <img src="img/icon/icon_css_.png" alt="icon_css" />
+                                    <img src="img/icon/icon_sass.png" alt="icon_sass" />
+                                    <img src="img/icon/icon_js.png" alt="icon_js" />
+                                    <img src="img/icon/icon_jquery.png" alt="icon_jquery" />
+                                    <img src="img/icon/icon_figma.png" alt="icon_figma" />
+                                    <img src="img/icon/icon_photoshop_.png" alt="icon_photoshop" />
+                                    <img src="img/icon/icon_illustrator_.png" alt="icon_illustrator" />
+                                    <!-- <img src="img/icon/icon_react.png" alt="icon_react" /> -->
+                                    <img src="img/icon/icon_github.png" alt="icon_github" />
+                                </div>
+                                <!-- icon -->
+                            </div>
+                            <!-- skill wrap -->
+                        </div>
+                        <!-- sub title -->
+                    </div>
+                    <!-- works title -->
+                </div>
+                <!-- works title wrap -->
+            </div>
+            <!-- sticky -->
+
+            <div class="sticky sticky-open"></div>
+        </section>
+        <!-- works -->
+
+        <section class="slide-text section">
+            <div class="scroll-container">
+                <p class="split-text en">Tenacious</p>
+                <p class="split-text kr">포기하지 않는</p>
+                <p class="split-text en">Perfectionistic</p>
+                <p class="split-text kr">완벽주의자</p>
+            </div>
+        </section>
+        <!-- slide text -->
+
+        <section class="popup-section">
+            <div class="popup-overlay">
+                <div class="popup-content">
+                    <button class="close-btn">
+                        <img src="img/icon/close.svg" alt="" />
+                    </button>
+                    <img class="popup-img" src="" alt="팝업 이미지" />
+                </div>
+            </div>
+            <!-- popup-overlay -->
+        </section>
+
+        <section class="about-me section">
+            <div class="inner">
+                <div class="title-text">
+                    <p class="title scramble-text">About Me</p>
+                </div>
+
+                <div class="content">
+                    <div class="wrap">
+                        <div class="id-img">
+                            <img src="img/item/id_photo.jpg" alt="증명사진" />
+                        </div>
+
+                        <div class="data">
+                            <div class="id-info">
+                                <p class="field">Name</p>
+                                <p>이오성</p>
+                            </div>
+
+                            <div class="id-info">
+                                <p class="field">Birth</p>
+                                <p>2000.10.24</p>
+                            </div>
+
+                            <div class="id-info">
+                                <p class="field">Phone</p>
+                                <p>010-3235-0892</p>
+                            </div>
+
+                            <div class="id-info">
+                                <p class="field">Email</p>
+                                <p>oho0927@naver.com</p>
+                            </div>
+                        </div>
+                        <!-- data -->
+                    </div>
+                    <!-- wrap -->
+
+                    <div class="wrap">
+                        <div class="certificate">
+                            <p class="title">Certificate</p>
+
+                            <div class="item-wrap">
+                                <div class="item">
+                                    <p class="date">2024</p>
+                                    <p class="what">컴퓨터 활용능력 2급</p>
+                                    <p class="info">
+                                        2024.12 창원상공회의소
+                                    </p>
+                                </div>
+
+                                <div class="item">
+                                    <p class="date">2022</p>
+                                    <p class="what">운전면허 2종 보통</p>
+                                    <p class="info">
+                                        2022.08 마산운전면허시험장
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- item wrap -->
+                        </div>
+                        <!-- certificate -->
+
+                        <div class="education">
+                            <p class="title">Education</p>
+
+                            <div class="item-wrap">
+                                <div class="item">
+                                    <p class="date">2025</p>
+                                    <p class="what">
+                                        그린컴퓨터아카데미 UI/UX 반응형
+                                        웹디자인&웹퍼블리셔 양성과정
+                                    </p>
+                                    <p class="info">
+                                        수료 2025.01 ~ 2025.06
+                                    </p>
+                                </div>
+
+                                <div class="item">
+                                    <p class="date">2025</p>
+                                    <p class="what">
+                                        그린온라인캠프 웹퍼블리싱 & 웹개발을
+                                        위한 코딩 기초
+                                    </p>
+                                    <p class="info">
+                                        수료 2024.12 ~ 2025.01
+                                    </p>
+                                </div>
+
+                                <div class="item">
+                                    <p class="date">2025</p>
+                                    <p class="what">
+                                        동서대학교 운동처방학과
+                                    </p>
+                                    <p class="info">
+                                        졸업 2019.03 ~ 2025.03
+                                    </p>
+                                </div>
+
+                                <div class="item">
+                                    <p class="date">2019</p>
+                                    <p class="what">진해중앙고등학교</p>
+                                    <p class="info">
+                                        졸업 2016.03 ~ 2019.02
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- education -->
+
+                        <div class="skill-wrap media">
+                            <p class="skill">Can do skills</p>
+                            <div class="icon_area">
+                                <img src="img/icon/icon_html.png" alt="icon_html" />
+                                <img src="img/icon/icon_css_.png" alt="icon_css" />
+                                <img src="img/icon/icon_sass.png" alt="icon_sass" />
+                                <img src="img/icon/icon_js.png" alt="icon_js" />
+                                <img src="img/icon/icon_jquery.png" alt="icon_jquery" />
+                                <img src="img/icon/icon_figma.png" alt="icon_figma" />
+                                <img src="img/icon/icon_photoshop_.png" alt="icon_photoshop" />
+                                <img src="img/icon/icon_illustrator_.png" alt="icon_illustrator" />
+                                <!-- <img src="img/icon/icon_react.png" alt="icon_react" /> -->
+                                <img src="img/icon/icon_github.png" alt="icon_github" />
+                            </div>
+                            <!-- icon -->
+                        </div>
+                        <!-- skill wrap -->
+                    </div>
+                    <!-- wrap -->
+                </div>
+                <!-- content -->
+            </div>
+            <!-- inner -->
+        </section>
+        <!-- about me -->
+
+        <section class="main-project section">
+            <div class="inner">
+                <div class="title-text">
+                    <p class="title scramble-text">Main Project</p>
+                    <p class="message">기여도: 기획, 디자인, 코딩 100%</p>
+                </div>
+
+                <ul class="tabs">
+                    <li class="tab all btn-1 active fill-btn">All</li>
+                    <li class="tab clone btn-1 fill-btn">Clone</li>
+                    <li class="tab renewal btn-1 fill-btn">Renewal</li>
+                </ul>
+
+                <div class="project-contents">
+                    <div class="content clone">
+                        <div class="wrap">
+                            <div class="item">
+                                <div class="img">
+                                    <img src="img/item/nice_group.png" alt="나이스그룹" />
+                                </div>
+
+                                <div class="text-btn">
+                                    <div class="text">
+                                        <p class="title">NICE Group</p>
+
+                                        <p class="sub">
+                                            금융 인프라 전문 기업,
+                                            NICE그룹의 클론 페이지입니다.
+                                        </p>
+
+                                        <p class="hash">
+                                            <span>#클론코딩</span>
+                                            <span>#반응형</span>
+                                            <span>#GSAP</span>
+                                            <span>#AOS</span>
+                                            <span>#스와이퍼슬라이드</span>
+                                            <span>#라이트모드</span>
+                                            <span>#다크모드</span>
+                                            <span>#언어변경</span>
+                                            <span>#아코디언메뉴</span>
+                                        </p>
+                                    </div>
+                                    <!-- text -->
+
+                                    <div class="btn-wrap">
+                                        <a class="btn-2 em fill-btn" href="https://ohhsung.github.io/niceGroup/"
+                                            target="_blank" rel="noopener noreferrer">
+                                            Website
+                                            <img src="img/icon/foward.svg" alt="" />
+                                        </a>
+
+                                        <a class="btn-2 fill-btn"
+                                            href="https://www.figma.com/design/yhUVTel97gHBKNq9Hpn3Gi/%EB%82%98%EC%9D%B4%EC%8A%A4%EA%B7%B8%EB%A3%B9-%EB%B0%98%EC%9D%91%ED%98%95?node-id=0-1&p=f&t=xFw8Qxpx6BKAVvf7-0"
+                                            target="_blank" rel="noopener noreferrer">
+                                            Figma
+                                        </a>
+
+                                        <a class="btn-2 fill-btn" href="https://github.com/ohhsung/niceGroup"
+                                            target="_blank" rel="noopener noreferrer">
+                                            Github
+                                        </a>
+
+                                        <!-- QR코드 버튼 -->
+                                        <button class="btn-2 fill-btn popup-button"
+                                            data-img="img/item/nicegroup_qr.jpg">
+                                            <img class="qrcode" src="img/icon/qrcode.png" alt="QR코드" />
+                                        </button>
+
+                                        <!-- light 버튼 -->
+                                        <div class="light-content">
+                                            <div class="light-box">
+                                                <div class="item">
+                                                    <button class="close-btn">
+                                                        <img src="img/icon/close.svg" alt="" />
+                                                    </button>
+
+                                                    <div class="inner-text">
+                                                        <p class="title">
+                                                            GSAP 사용의 어려움
+                                                        </p>
+
+                                                        <p class="sub">
+                                                            <span>
+                                                                저는 GSAP 라이브러리를 codepen 에서 예제를 보며 독학으로 공부했습니다.
+                                                            </span>
+
+                                                            <span>
+                                                                클론 웹페이지를 제작하는 과정에서 GSAP를 활용해 그리드로 나눠진 이미지를 나타내도록 하는 과정에서
+                                                                어려움을 겪었습니다.
+                                                            </span>
+
+                                                            <span>
+                                                                문제를 해결하기 위해 NICE 그룹의 공식 웹사이트를 개발자 도구로 분석해보았고, 구조와 코드 흐름을
+                                                                파악할 수 있었습니다.
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                    <!-- inner text -->
+                                                </div>
+                                                <!-- item -->
+                                            </div>
+                                            <!-- light box -->
+
+                                            <div class="light-btn fill-btn btn-2">
+                                                <p class="off-icon icon">?</p>
+                                                <p class="on-icon icon">!</p>
+                                            </div>
+                                        </div>
+                                        <!-- light content -->
+                                    </div>
+                                    <!-- btn wrap -->
+                                </div>
+                                <!-- text-btn -->
+                            </div>
+                            <!-- item -->
+                        </div>
+                        <!-- wrap -->
+                    </div>
+                    <!-- content -->
+
+                    <div class="content renewal">
+                        <div class="wrap">
+                            <div class="item">
+                                <div class="img">
+                                    <img src="img/item/art_culture.png" alt="아트앤컬쳐" />
+                                </div>
+
+                                <div class="text-btn">
+                                    <div class="text">
+                                        <p class="title">ART & culture</p>
+
+                                        <p class="sub">
+                                            미술 교육 콘텐츠를 전문 개발하는
+                                            아트앤컬처의 리뉴얼
+                                            페이지입니다.
+                                        </p>
+
+                                        <p class="hash">
+                                            <span>#리뉴얼</span>
+                                            <span>#반응형</span>
+                                            <span>#마우스트래킹</span>
+                                            <span>#로그인페이지</span>
+                                            <span>#오토슬라이드</span>
+                                            <span>#스티키</span>
+                                            <span>#아코디언메뉴</span>
+                                        </p>
+                                    </div>
+                                    <!-- text -->
+
+                                    <div class="btn-wrap">
+                                        <a class="btn-2 em fill-btn" href="https://ohhsung.github.io/artCulture/"
+                                            target="_blank" rel="noopener noreferrer">
+                                            Website
+                                            <img src="img/icon/foward.svg" alt="" />
+                                        </a>
+
+                                        <a class="btn-2 fill-btn"
+                                            href="https://www.figma.com/design/x4KxC8D7XS5jsH13xXXObn/%EC%95%84%ED%8A%B8%EC%95%A4%EC%BB%AC%EC%B3%90-%EB%B0%98%EC%9D%91%ED%98%95-%EC%99%80%EC%9D%B4%EC%96%B4%ED%94%84%EB%A0%88%EC%9E%84?t=JFZlP0YdZfQcm1Dh-0"
+                                            target="_blank" rel="noopener noreferrer">
+                                            Figma
+                                        </a>
+
+                                        <a class="btn-2 fill-btn" href="https://github.com/ohhsung/artCulture"
+                                            target="_blank" rel="noopener noreferrer">
+                                            Github
+                                        </a>
+
+                                        <a class="btn-2 fill-btn" href="pdf/artculture_renewal.pdf" target="_blank"
+                                            rel="noopener noreferrer">
+                                            Project
+                                        </a>
+
+                                        <!-- QR코드 버튼 -->
+                                        <button class="btn-2 fill-btn popup-button"
+                                            data-img="img/item/artculture_qr.jpg">
+                                            <img class="qrcode" src="img/icon/qrcode.png" alt="QR코드" />
+                                        </button>
+
+                                        <div class="light-content">
+                                            <div class="light-box">
+                                                <div class="item">
+                                                    <button class="close-btn">
+                                                        <img src="img/icon/close.svg" alt="" />
+                                                    </button>
+
+                                                    <div class="inner-text">
+                                                        <p class="title">
+                                                            리뉴얼 디자인
+                                                        </p>
+
+                                                        <p class="sub">
+                                                            <span>
+                                                                저는 GSAP 라이브러리를 codepen 에서 예제를 보며 독학으로 공부했습니다.
+                                                            </span>
+
+                                                            <span>
+                                                                클론 웹페이지를 제작하는 과정에서 GSAP를 활용해 그리드로 나눠진 이미지를 나타내도록 하는 과정에서
+                                                                어려움을 겪었습니다.
+                                                            </span>
+
+                                                            <span>
+                                                                문제를 해결하기 위해 NICE 그룹의 공식 웹사이트를 개발자 도구로 분석해보았고, 구조와 코드 흐름을
+                                                                파악할 수 있었습니다.
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                    <!-- inner text -->
+                                                </div>
+                                                <!-- item -->
+                                            </div>
+                                            <!-- light box -->
+
+                                            <div class="light-btn fill-btn btn-2">
+                                                <p class="off-icon icon">?</p>
+                                                <p class="on-icon icon">!</p>
+                                            </div>
+                                        </div>
+                                        <!-- light content -->
+                                    </div>
+                                    <!-- btn-wrap -->
+                                </div>
+                                <!-- text-btn -->
+                            </div>
+                            <!-- item -->
+
+                            <div class="item">
+                                <div class="img">
+                                    <img src="img/item/britz.png" alt="브리츠" />
+                                </div>
+
+                                <div class="text-btn">
+                                    <div class="text">
+                                        <p class="title">Britz</p>
+
+                                        <p class="sub">
+                                            한국의 음향기기 전문 기업
+                                            브리츠의 리뉴얼 페이지입니다.
+                                        </p>
+
+                                        <p class="hash">
+                                            <span>#리뉴얼</span>
+                                            <span>#반응형</span>
+                                            <span>#오토슬라이드</span>
+                                            <span>#메인페이지</span>
+                                            <span>#오토슬라이드</span>
+                                        </p>
+                                    </div>
+                                    <!-- text -->
+
+                                    <div class="btn-wrap">
+                                        <a class="btn-2 em fill-btn" href="https://ohhsung.github.io/Britz/"
+                                            target="_blank" rel="noopener noreferrer">
+                                            Website
+                                            <img src="img/icon/foward.svg" alt="" />
+                                        </a>
+                                        <a class="btn-2 fill-btn"
+                                            href="https://www.figma.com/design/h0dsF7egsqbpn4r8ohpflR/%EB%B8%8C%EB%A6%AC%EC%B8%A0-%EB%A6%AC%EB%89%B4%EC%96%BC-%EB%94%94%EC%9E%90%EC%9D%B8-%EC%8B%9C%EC%95%88?node-id=2026-345&p=f&t=l7syghyjJuKtA48B-0"
+                                            target="_blank" rel="noopener noreferrer">
+                                            Figma
+                                        </a>
+
+                                        <a class="btn-2 fill-btn"
+                                            href="https://github.com/ohhsung/Britz?tab=readme-ov-file" target="_blank"
+                                            rel="noopener noreferrer">
+                                            Github
+                                        </a>
+
+                                        <a href="pdf/britz_renewal.pdf" target="_blank" rel="noopener noreferrer"
+                                            class="btn-2 fill-btn">
+                                            Project
+                                        </a>
+
+                                        <!-- QR코드 버튼 -->
+                                        <button class="btn-2 fill-btn popup-button" data-img="img/item/britz_qr.jpg">
+                                            <img class="qrcode" src="img/icon/qrcode.png" alt="QR코드" />
+                                        </button>
+                                    </div>
+                                    <!-- btn-wrap -->
+                                </div>
+                                <!-- text-btn -->
+                            </div>
+                            <!-- item -->
+                        </div>
+                        <!-- wrap -->
+                    </div>
+                    <!-- content -->
+                </div>
+                <!-- project content -->
+            </div>
+            <!-- inner -->
+        </section>
+        <!-- main project -->
+
+        <section class="side-project section">
+            <div class="inner">
+                <div class="title-text">
+                    <p class="title scramble-text">Side Project</p>
+                    <p class="message">기여도: 100%</p>
+                </div>
+
+                <div class="content">
+                    <div class="item">
+                        <div class="img">
+                            <img src="img/item/robotori.png" alt="로보토리에듀" />
+                        </div>
+
+                        <div class="wrap">
+                            <div class="text">
+                                <div class="title">
+                                    <p>Robotori Edu</p>
+                                </div>
+
+                                <div class="sub">
+                                    <p>
+                                        AI, 로봇 등 교육 프로그램을 제공하는
+                                        로보토리에듀의 클론 페이지입니다.
+                                    </p>
+                                </div>
+
+                                <div class="hash">
+                                    <span>#클론코딩</span>
+                                    <span>#PC전용</span>
+                                    <span>#팝업창</span>
+                                    <span>#AOS</span>
+                                    <span>#스와이퍼슬라이드</span>
+                                </div>
+                            </div>
+                            <!-- text -->
+
+                            <div class="btn-wrap">
+                                <a href="https://ohhsung.github.io/robotoriedu/" target="_blank"
+                                    rel="noopener noreferrer" class="btn-2 fill-btn em">
+                                    Website
+                                    <img src="img/icon/foward.svg" alt="" />
+                                </a>
+
+                                <a href="https://github.com/ohhsung/robotoriedu" target="_blank"
+                                    rel="noopener noreferrer" class="btn-2 fill-btn">
+                                    Github
+                                </a>
+                            </div>
+                            <!-- btn wrap -->
+                        </div>
+                        <!-- wrap -->
+                    </div>
+                    <!-- item -->
+
+                    <div class="item">
+                        <div class="img">
+                            <img src="img/item/skelter.png" alt="스켈터랩스" />
+                        </div>
+
+                        <div class="wrap">
+                            <div class="text">
+                                <div class="title">
+                                    <p>Skelter Labs</p>
+                                </div>
+
+                                <div class="sub">
+                                    <p>
+                                        인공지능 기반의 국내 테크 기업
+                                        스켈터랩스의 클론 페이지입니다.
+                                    </p>
+                                </div>
+
+                                <div class="hash">
+                                    <span>#클론코딩</span>
+                                    <span>#PC전용</span>
+                                    <span>#AOS</span>
+                                    <span>#스티키</span>
+                                    <span>#스와이퍼슬라이드</span>
+                                    <span>#폼제출</span>
+                                </div>
+                            </div>
+                            <!-- text -->
+
+                            <div class="btn-wrap">
+                                <a href="https://ohhsung.github.io/skelterLabs/" target="_blank"
+                                    class="btn-2 fill-btn em" rel="noopener noreferrer">
+                                    Website
+                                    <img src="img/icon/foward.svg" alt="" />
+                                </a>
+
+                                <a href="https://github.com/ohhsung/skelterLabs" target="_blank"
+                                    rel="noopener noreferrer" class="btn-2 fill-btn">
+                                    Github
+                                </a>
+                            </div>
+                            <!-- btn wrap -->
+                        </div>
+                        <!-- wrap -->
+                    </div>
+                    <!-- item -->
+
+                    <div class="item">
+                        <div class="img">
+                            <img src="img/item/zlgoon.png" alt="즐거운" />
+                        </div>
+
+                        <div class="wrap">
+                            <div class="text">
+                                <div class="title">
+                                    <p>Zlgoon</p>
+                                </div>
+
+                                <div class="sub">
+                                    <p>
+                                        모바일 쿠폰 전문 기업 즐거운의 클론
+                                        페이지입니다.
+                                    </p>
+                                </div>
+
+                                <div class="hash">
+                                    <span>#클론코딩</span>
+                                    <span>#PC전용</span>
+                                    <span>#AOS</span>
+                                    <span>#스티키</span>
+                                    <span>#스와이퍼슬라이드</span>
+                                    <span>#폼제출</span>
+                                </div>
+                            </div>
+                            <!-- text -->
+
+                            <div class="btn-wrap">
+                                <a href="https://ohhsung.github.io/zlgoon/" target="_blank" class="btn-2 fill-btn em"
+                                    rel="noopener noreferrer">
+                                    Website
+                                    <img src="img/icon/foward.svg" alt="" />
+                                </a>
+
+                                <a href="https://github.com/ohhsung/zlgoon" target="_blank" rel="noopener noreferrer"
+                                    class="btn-2 fill-btn">
+                                    Github
+                                </a>
+                            </div>
+                            <!-- btn wrap -->
+                        </div>
+                        <!-- wrap -->
+                    </div>
+                    <!-- item -->
+
+                    <div class="item">
+                        <div class="img">
+                            <img src="img/item/daiso.png" alt="다이소" />
+                        </div>
+
+                        <div class="wrap">
+                            <div class="text">
+                                <div class="title">
+                                    <p>Daiso</p>
+                                </div>
+
+                                <div class="sub">
+                                    <p>
+                                        생활용품을 저렴하게 판매하는
+                                        다이소의 모바일 앱 리뉴얼입니다.
+                                    </p>
+                                </div>
+
+                                <div class="hash">
+                                    <span>#모바일앱</span>
+                                    <span>#리뉴얼</span>
+                                    <span>#피그마</span>
+                                    <span>#컴포넌트</span>
+                                    <span>#UX/UI</span>
+                                    <span>#서브페이지</span>
+                                    <span>#스토리보드</span>
+                                </div>
+                            </div>
+                            <!-- text -->
+
+                            <div class="btn-wrap">
+                                <a href="https://www.figma.com/design/MLaKZrs37ZzZrGcQJae8rm/%EB%8B%A4%EC%9D%B4%EC%86%8C-%EB%AA%A8%EB%B0%94%EC%9D%BC%EC%95%B1-%EB%A6%AC%EB%89%B4%EC%96%BC?t=jQYQ1Qor3wLZJHgU-0"
+                                    target="_blank" class="btn-2 fill-btn em">
+                                    Figma
+                                    <img src="img/icon/foward.svg" alt="" rel="noopener noreferrer" />
+                                </a>
+
+                                <a href="pdf/daiso_renewal.pdf" target="_blank" rel="noopener noreferrer"
+                                    class="btn-2 fill-btn">
+                                    Project
+                                </a>
+
+                                <!-- QR코드 버튼 -->
+                                <button class="btn-2 fill-btn popup-button" data-img="img/item/daiso_qr.jpg">
+                                    <img class="qrcode invert" src="img/icon/qrcode.png" alt="QR코드" />
+                                </button>
+                            </div>
+                            <!-- btn wrap -->
+                        </div>
+                        <!-- wrap -->
+                    </div>
+                    <!-- item -->
+                </div>
+                <!-- content -->
+            </div>
+            <!-- inner -->
+        </section>
+        <!-- side project -->
+
+        <section class="design section">
+            <div class="inner">
+                <div class="title-text">
+                    <p class="title scramble-text">Design</p>
+                    <p class="message">이미지를 클릭해 보세요</p>
+                </div>
+
+                <div class="swiper designSlide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <button class="popup-button photoshop" data-img="img/design/stayseries.gif">
+                                <img src="img/design/stayseries.gif" alt="디자인이미지" />
+                            </button>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <button class="popup-button photoshop" data-img="img/design/glass.jpg">
+                                <img src="img/design/glass.jpg" alt="디자인이미지" />
+                            </button>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <button class="popup-button photoshop" data-img="img/design/fivesung.jpg">
+                                <img src="img/design/fivesung.jpg" alt="디자인이미지" />
+                            </button>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <button class="popup-button photoshop" data-img="img/design/teatree.gif">
+                                <img src="img/design/teatree.gif" alt="디자인이미지" />
+                            </button>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <button class="popup-button illustrator" data-img="img/design/illustrator.jpg">
+                                <img src="img/design/illustrator.jpg" alt="디자인이미지" />
+                            </button>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <button class="popup-button illustrator" data-img="img/design/goldenring.jpg">
+                                <img src="img/design/goldenring.jpg" alt="디자인이미지" />
+                            </button>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <button class="popup-button illustrator" data-img="img/design/heart_text.jpg">
+                                <img src="img/design/heart_text.jpg" alt="디자인이미지" />
+                            </button>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <button class="popup-button illustrator" data-img="img/design/hole_text.jpg">
+                                <img src="img/design/hole_text.jpg" alt="디자인이미지" />
+                            </button>
+                        </div>
+                    </div>
+                    <!-- swiper wrapper -->
+                </div>
+                <!-- designSlide -->
+            </div>
+            <!-- inner -->
+        </section>
+        <!-- design -->
+
+        <section class="contact">
+            <div class="inner">
+                <div class="contact_area">
+                    <div class="text_area">
+                        <p>Let's Work Together!</p>
+                    </div>
+
+                    <div class="link_area">
+                        <div class="kakao-qr box">
+                            <button class="popup-button item" data-img="img/item/kakao_qr.jpg">
+                                <img src="img/icon/kakao.png" alt="디자인이미지" />
+                            </button>
+                        </div>
+
+                        <div class="phone box">
+                            <a class="item" target="_blank" href="tel:01032350892" rel="noopener noreferrer">
+                                <img src="img/icon/phone.png" alt="phone" />
+                            </a>
+                        </div>
+
+                        <div class="email box">
+                            <a class="item" target="_blank" href="mailto:oho0927@naver.com" rel="noopener noreferrer">
+                                <img src="img/icon/email.png" alt="email" />
+                            </a>
+                        </div>
+
+                        <div class="github box">
+                            <a class="item" target="_blank" href="https://github.com/ohhsung" rel="noopener noreferrer">
+                                <img src="img/icon/contact_github.png" alt="github" />
+                            </a>
+                        </div>
+                    </div>
+                    <!-- .link_area -->
+                </div>
+                <!-- contact area -->
+            </div>
+            <!-- inner -->
+        </section>
+        <!-- contact -->
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 5SUNG All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
