@@ -373,17 +373,17 @@
 
                                                     <div class="inner-text">
                                                         <p class="title">
-                                                            어색한 GSAP
+                                                            GSAP
                                                         </p>
 
                                                         <p class="sub">
                                                             <span>
-                                                                GSAP를 독학해서 사용하다보니 원하는 애니메이션을 구현하는데 어려움이 있었습니다.
+                                                                이미지를 그리드로 나눠서 나타나게 하는 애니메이션을 구현하는데 어려움을 겪었습니다.
                                                             </span>
 
                                                             <span>
-                                                                하지만 codepen 에서 사용 예제들을 보고 구현해보면서 사용하는법을 익혔고 <br>
-                                                                NICE 그룹의 웹사이트 코드를 분석해보며 적용할 수 있었습니다.
+                                                                GSAP demo 에서 사용 예제들을 보고 구현해보면서 사용하는법을 익혔고,
+                                                                NICE 그룹의 웹페이지 코드를 분석해보니 이해 할 수 있었습니다.
                                                             </span>
                                                         </p>
                                                     </div>
@@ -477,19 +477,26 @@
 
                                                     <div class="inner-text">
                                                         <p class="title">
-                                                            어색한 GSAP
+                                                            가로 스크롤 섹션
                                                         </p>
 
                                                         <p class="sub">
                                                             <span>
-                                                                GSAP를 독학해서 사용하다보니 구현시키는데 어려움이 있었습니다.
+                                                                스크롤시 가로로 스크롤 되는 섹션을 구현하는데 어려움을 겪었습니다.
                                                             </span>
 
                                                             <span>
-                                                                하지만 codepen 에서 사용 예제들을 보고 구현해보면서
-                                                                사용하는법을 익혔고 NICE 그룹의 웹사이트 코드를 분석해보며
-                                                                적용할 수 있었습니다.
+                                                                섹션에 stiky가 적용되지 않았던 오류는 overflow: hidden 속성,
                                                             </span>
+
+                                                            <span>
+                                                                디스플레이 너비에 따라 섹션이 제대로 보여지지 않던 문제를 여러 미디어쿼리 적용,
+                                                            </span>
+
+                                                            <span>
+                                                                모바일에서는 가로 스크롤을 해제하고 세로 스크롤 방식으로 변경하였습니다.
+                                                            </span>
+
                                                         </p>
                                                     </div>
                                                     <!-- inner text -->
@@ -562,6 +569,47 @@
                                         <button class="btn-2 fill-btn popup-button" data-img="img/item/britz_qr.jpg">
                                             <img class="qrcode" src="img/icon/qrcode.png" alt="QR코드" />
                                         </button>
+
+                                        <div class="light-content">
+                                            <div class="light-box">
+                                                <div class="item">
+                                                    <button class="close-btn">
+                                                        <img src="img/icon/close.svg" alt="" />
+                                                    </button>
+
+                                                    <div class="inner-text">
+                                                        <p class="title">
+                                                            로직 충돌
+                                                        </p>
+
+                                                        <p class="sub">
+                                                            <span>
+                                                                헤더의 속성을 바꾸는 로직이 중복되거나 꼬이는 어려움을 겪었습니다.
+                                                            </span>
+
+                                                            <span>
+                                                                mouseenter, mouseleave 이벤트와 scroll 이벤트가 서로 영향을 주는
+                                                                상황에서 로직 충돌이 발생했습니다.
+                                                            </span>
+
+                                                            <span>
+                                                                공통 함수를 만들어 스타일 변경을 일괄적으로 처리하도록 설계했고
+                                                                상태에 따라 스타일을 변경할 수 있도록 했습니다.
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                    <!-- inner text -->
+                                                </div>
+                                                <!-- item -->
+                                            </div>
+                                            <!-- light box -->
+
+                                            <div class="light-btn fill-btn btn-2">
+                                                <p class="off-icon icon">?</p>
+                                                <p class="on-icon icon">!</p>
+                                            </div>
+                                        </div>
+                                        <!-- light content -->
                                     </div>
                                     <!-- btn-wrap -->
                                 </div>

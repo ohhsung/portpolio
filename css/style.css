@@ -600,7 +600,7 @@ body {
 }
 
 .light-box .item {
-    width: 800px;
+    width: 1500px;
     max-width: 90%;
     max-height: 90%;
 
@@ -641,6 +641,10 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+.light-box .sub span {
+    display: block;
 }
 
 .light-btn .on-icon,
