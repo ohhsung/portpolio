@@ -138,10 +138,15 @@
 
     .intro-title {
         left: 30px;
+        bottom: 30px;
     }
 
-    .works-title {
-        padding: 80px 30px;
+    .publisher {
+        font-size: 10vw;
+    }
+
+    .portfolio {
+        font-size: 15vw;
     }
 
     .section {
@@ -305,7 +310,8 @@
         gap: 15px;
     }
 
-    .main-project .project-contents, .main-project .content .wrap {
+    .main-project .project-contents,
+    .main-project .content .wrap {
         margin: 0;
     }
 
