@@ -328,18 +328,22 @@ popupOverlay.addEventListener('click', (e) => {
 document.querySelectorAll('.light-content').forEach(content => {
     const lightBtn = content.querySelector('.light-btn');
     const lightBox = content.querySelector('.light-box');
+    const lightOverlay = content.querySelector('.overlay');
 
     // 버튼 클릭 시 열기/닫기
     lightBtn.addEventListener('click', (e) => {
         e.stopPropagation(); // 클릭 전파 방지
         lightBtn.classList.toggle('active');
         lightBox.classList.toggle('active');
+        lightOverlay.classList.toggle('active');
+
     });
 
-    // light-box 클릭 시 닫기
-    lightBox.addEventListener('click', () => {
+    // overlay 클릭 시 닫기
+    lightOverlay.addEventListener('click', () => {
         lightBtn.classList.remove('active');
         lightBox.classList.remove('active');
+        lightOverlay.classList.remove('active');
     });
 
     // 닫기 버튼
@@ -348,6 +352,7 @@ document.querySelectorAll('.light-content').forEach(content => {
         e.stopPropagation(); // 클릭이 lightBox에 전달되지 않도록
         lightBtn.classList.remove('active');
         lightBox.classList.remove('active');
+        lightOverlay.classList.remove('active');
     });
 });
 
@@ -355,8 +360,7 @@ document.querySelectorAll('.light-content').forEach(content => {
 // 디자인섹션 흐르는 오토 슬라이드 ##########################################
 const designSlide = new Swiper('.designSlide', {
     loop: true,
-    speed: 9000,
-    freeMode: true,
+    speed: 8000,
     freeModeMomentum: true,
     grabCursor: true,
 
