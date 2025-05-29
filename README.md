@@ -7,16 +7,16 @@
 HTML, CSS, JavaScript를 바탕으로 **반응형 웹**, **웹 접근성** 에 최적화된 웹 페이지를 제작합니다.
 
 ### 디자인 툴
-✅ Photoshop
-✅ Illustrator
-✅ Figma
+✅ Photoshop <br>
+✅ Illustrator <br>
+✅ Figma <br>
 
 ### 퍼블리싱
-✅ HTML5
-✅ CSS3 / SCSS
-✅ JavaScript
+✅ HTML5 <br>
+✅ CSS3 / SCSS <br>
+✅ JavaScript <br>
 
 ### 라이브러리 활용
-✅ **GSAP**을 활용한 애니메이션 구현
-✅ **Swiper** 라이브러리로 슬라이드 UI 제작
-✅ **jQuery**를 활용한 이벤트 처리
+✅ **GSAP**을 활용한 애니메이션 구현 <br>
+✅ **Swiper** 라이브러리로 슬라이드 UI 제작 <br>
+✅ **jQuery**를 활용한 이벤트 처리 <br>
