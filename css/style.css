@@ -719,6 +719,10 @@ body {
 
 /* 메인프로젝트 */
 
+.main-project .title-text .title.scramble-text {
+    width: 340px;
+}
+
 .main-project .content .item>.img {
     width: 1100px;
     display: flex;
