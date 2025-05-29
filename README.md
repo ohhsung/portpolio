@@ -17,6 +17,7 @@ HTML, CSS, JavaScript를 바탕으로 **반응형 웹**, **웹 접근성** 에 �
 ✅ JavaScript <br>
 
 ### 라이브러리 활용
-✅ **GSAP**을 활용한 애니메이션 구현 <br>
-✅ **Swiper** 라이브러리로 슬라이드 UI 제작 <br>
-✅ **jQuery**를 활용한 이벤트 처리 <br>
+✅ **GSAP** 활용한 애니메이션 구현 <br>
+✅ **Swiper Slide** 활용한 슬라이드 UI 제작 <br>
+✅ **jQuery** 활용한 이벤트 처리 <br>
+✅ **AOS** 활용한 스크롤 애니메이션 효과 구현
