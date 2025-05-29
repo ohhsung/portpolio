@@ -1,3 +1,35 @@
-# portpolio
-안녕하세요! <br>
-웹퍼블리셔 포트폴리오 페이지입니다.
+# 웹 퍼블리셔 이오성 포트폴리오
+
+안녕하세요!  
+저는 **웹 퍼블리셔 이오성**입니다.  
+HTML, CSS, JavaScript를 바탕으로 **반응형 웹**, **웹 접근성** 에 최적화된 웹 페이지를 제작합니다.
+
+---
+
+## 주요 역량
+
+- semantic 마크업 & 웹 접근성 고려한 구조 설계
+- 반응형 웹 / 모바일 퍼스트 디자인 구현
+- SCSS, CSS 모듈화 및 유지보수성 높은 스타일 설계
+- JavaScript / jQuery를 활용한 UI 인터랙션 개발
+- Git 기반 협업 및 코드 관리
+
+---
+
+## 사용 가능한 기술 스택
+
+| HTML5 | CSS3 | JavaScript | SCSS | jQuery |
+|-------|------|------------|------|--------|
+| ✅    | ✅   | ✅         | ✅   | ✅     |
+
+---
+
+## 프로젝트
+
+| 프로젝트명 | 기술스택 | 링크 |
+|------------|----------|------|
+| 포트폴리오 사이트 | HTML, CSS, JS | [바로가기](https://yourportfolio.link) |
+| 반응형 쇼핑몰 클론 | HTML, CSS, JS, jQuery | [GitHub](https://github.com/yourproject) |
+| 웹 접근성 리디자인 | HTML, SCSS | [GitHub](https://github.com/yourproject) |
+
+---
