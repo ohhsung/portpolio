@@ -367,6 +367,7 @@ body {
 .section .message {
     font-size: 18px;
     margin-top: 15px;
+    display: block;
 }
 
 /* --------------- slide text ------------------- */
@@ -954,7 +955,7 @@ body {
     align-items: center;
 }
 
-.contact .contact_area .text_area p {
+.contact .contact_area .text_area h2 {
     color: #222;
     font-size: 40px;
 }

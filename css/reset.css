@@ -80,3 +80,7 @@ select {
     outline: none;
     font: inherit;
 }
+
+strong {
+    font-weight: 400;
+}
