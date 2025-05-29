@@ -82,5 +82,6 @@ select {
 }
 
 strong {
+    display: block;
     font-weight: 400;
 }
