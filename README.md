@@ -21,15 +21,3 @@ HTML, CSS, JavaScript를 바탕으로 **반응형 웹**, **웹 접근성** 에 �
 | HTML5 | CSS3 | JavaScript | SCSS | jQuery |
 |-------|------|------------|------|--------|
 | ✅    | ✅   | ✅         | ✅   | ✅     |
-
----
-
-## 프로젝트
-
-| 프로젝트명 | 기술스택 | 링크 |
-|------------|----------|------|
-| 포트폴리오 사이트 | HTML, CSS, JS | [바로가기](https://yourportfolio.link) |
-| 반응형 쇼핑몰 클론 | HTML, CSS, JS, jQuery | [GitHub](https://github.com/yourproject) |
-| 웹 접근성 리디자인 | HTML, SCSS | [GitHub](https://github.com/yourproject) |
-
----
