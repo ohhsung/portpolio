@@ -1,4 +1,4 @@
-# 웹 퍼블리셔 이오성 포트폴리오
+# 포기하지않는 완벽주의자
 
 <img src="https://github.com/user-attachments/assets/9ceb2541-cbae-4082-be50-44918069229a" alt="ID Photo" style="width: 200px;"/>
 
