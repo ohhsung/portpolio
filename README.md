@@ -89,6 +89,7 @@
 
 ### 4. JavaScript
 
+> 1
 ```javascript
 // 메인 비주얼 인트로, 가운데 열리는 gsap #######################
 const mm = gsap.matchMedia();
@@ -122,7 +123,7 @@ const mm = gsap.matchMedia();
       });
   });
 ```
-> 함수의 역할을 상단에 주석 처리하여 유지보수 편리성 향상 시켰습니다.
+- [x] 함수의 역할을 상단에 주석 처리하여 유지보수 편리성 향상.
 - [x] 인트로 화면이 중앙에서 열리는 애니메이션 구조 구현  
 - [x] `gsap.matchMedia()`를 활용해 화면 크기 1001px 이상에서만 애니메이션 작동하도록 설정  
 - [x] `scrollTrigger` 옵션으로 스크롤 시작/종료 지점과 `endTrigger`를 명확히 지정하여 세밀한 애니메이션 제어  
@@ -132,6 +133,7 @@ const mm = gsap.matchMedia();
 <br>
 <br>
 
+> 1
 ```javascript
 // 헤더 버튼 클릭시 섹션 이동 #######################
 document.addEventListener('DOMContentLoaded', () => {
