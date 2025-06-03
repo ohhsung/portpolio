@@ -88,8 +88,9 @@
 <br>
 
 ### 4. JavaScript
-```javascript
 
+주요 코드 (1)
+```javascript
 // 메인 비주얼 인트로, 가운데 열리는 gsap #######################
 const mm = gsap.matchMedia();
   mm.add('(min-width: 1001px)', () => {
@@ -129,6 +130,10 @@ const mm = gsap.matchMedia();
 - [x] `scrub: 0` 설정으로 스크롤과 애니메이션 타이밍을 분리해 안정적인 동작 구현  
 - [x] 디버깅용 `markers`는 주석 처리하여 필요 시 활성화 가능
 
+<br>
+<br>
+
+주요 코드 (2)
 ```javascript
 // 헤더 버튼 클릭시 섹션 이동 #######################
 document.addEventListener('DOMContentLoaded', () => {
