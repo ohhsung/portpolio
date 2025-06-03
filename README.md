@@ -121,7 +121,6 @@ const mm = gsap.matchMedia();
 - [x] `gsap.matchMedia()`를 활용해 화면 크기 1001px 이상에서만 애니메이션 작동하도록 설정  
 - [x] `scrollTrigger` 옵션으로 스크롤 시작/종료 지점과 `endTrigger`를 명확히 지정하여 세밀한 애니메이션 제어  
 - [x] `scrub: 0` 설정으로 스크롤과 애니메이션 타이밍을 분리해 안정적인 동작 구현  
-- [x] 디버깅용 `markers`는 주석 처리하여 필요 시 쉽게 활성화 가능
-
+- [x] 디버깅용 `markers`는 주석 처리하여 필요 시 활성화 가능
 
 
