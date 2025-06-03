@@ -50,11 +50,11 @@ HTML, CSS, JavaScript를 바탕으로 <br>
 <br>
 
 ### 2. HTML 구조
-  <header class="header">
-    <div class="inner">
-      <h1 class="logo scramble-text">
-        <a href="index.html">5SUNG</a>
-      </h1>
+    <header class="header">
+      <div class="inner">
+        <h1 class="logo scramble-text">
+          <a href="index.html">5SUNG</a>
+        </h1>
 
     <nav class="nav">
       <ul class="gnb">
