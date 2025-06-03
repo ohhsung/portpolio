@@ -22,7 +22,3 @@ HTML, CSS, JavaScript를 바탕으로 <br>
 `Swiper Slide`
 `jQuery`
 `AOS`
-
-<div style="border:1px solid gray; border-radius: 5px; padding: 10px;" background-color: red;>
-  💡 <strong>Tip:</strong>
-</div>
