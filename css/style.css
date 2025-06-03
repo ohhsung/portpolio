@@ -678,10 +678,16 @@ body {
     height: 30px;
     display: flex;
     justify-content: flex-end;
+
+    position: fixed;
+    top: 10px;
+    left: 0;
+
+    padding-right: 10px;
 }
 
 .light-box .item .inner-text {
-    padding: 10px 40px 40px;
+    padding: 50px 40px 40px;
 }
 
 .light-content .light-btn {
