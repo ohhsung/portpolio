@@ -68,6 +68,9 @@
             <nav class="nav">
                 <ul class="gnb">
                     <li>
+.
+.
+.
 ```
                       
 - [x] 웹 표준을 준수하고자 시멘틱 태그를 적극적으로 사용
@@ -205,5 +208,32 @@ document.addEventListener('DOMContentLoaded', () => {
 - [x] 스크롤할 때도 현재 위치에 따라 자동으로 버튼 강조가 바뀌도록 처리
 - [x] 스크롤 중엔 클릭 이벤트랑 겹치지 않게 `isScrolling`으로 체크
 
+<br>
+<br>
 
+> 주요코드 3
+```javascript
+// 배경색 변경되는 서브 프로젝트 섹션 ######################
+window.addEventListener('scroll', () => {
+    const sideProjects = document.querySelectorAll('.side-project');
+    const header = document.querySelector('.header');
+    const mainProject = document.querySelector('.main-project');
+    const windowHeight = window.innerHeight - 500;
 
+    let anyVisible = false;
+
+    sideProjects.forEach((project) => {
+        const rect = project.getBoundingClientRect();
+        const isVisible = rect.top <= windowHeight && rect.bottom >= 0;
+
+        if (isVisible) {
+            project.classList.add('active');
+            anyVisible = true;
+        } else {
+            project.classList.remove('active');
+        }
+    });
+.
+.
+.
+```
