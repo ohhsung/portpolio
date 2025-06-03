@@ -11,7 +11,7 @@
 <br>
 
 포트폴리오 페이지 모바일 반응형 QR코드
-<img src="https://github.com/user-attachments/assets/9ceb2541-cbae-4082-be50-44918069229a](https://github.com/user-attachments/assets/dcc70fc4-7486-478c-b246-badbb72e6494" alt="QR코드" style="width: 200px;"/>
+<img src="https://github.com/user-attachments/assets/dcc70fc4-7486-478c-b246-badbb72e6494" alt="QR코드" style="width: 200px;"/>
 
 <br>
 <br>
