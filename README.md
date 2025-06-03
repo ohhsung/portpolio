@@ -7,6 +7,9 @@
 HTML, CSS, JavaScript를 바탕으로 <br>
 **반응형 웹**, **웹 접근성** 에 최적화된 웹 페이지를 제작합니다.
 
+<br>
+<br>
+
 # To do Skill
 
 <p style="display: block;">디자인 툴</p>
@@ -27,6 +30,9 @@ HTML, CSS, JavaScript를 바탕으로 <br>
 `Swiper Slide`
 `jQuery`
 `AOS`
+
+<br>
+<br>
 
 # 코드리뷰
 
