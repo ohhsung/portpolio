@@ -41,8 +41,6 @@
 <br>
 
 # Code Review
-
-    반응형 웹사이트 제작
     기술 : HTML, CSS, JAVASCRIPT, JQUERY, swiper slide, GSAP
 
 <br>
