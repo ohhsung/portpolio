@@ -28,8 +28,6 @@ HTML, CSS, JavaScript를 바탕으로 <br>
 `jQuery`
 `AOS`
 
----
-
 # 코드리뷰
 
     반응형 웹사이트 제작
