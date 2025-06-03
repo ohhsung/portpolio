@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 > 주요코드 3
 ```javascript
-// 배경색 변경되는 서브 프로젝트 섹션 ######################
+// 배경색 변경되는 사이드 프로젝트 섹션 ######################
 window.addEventListener('scroll', () => {
     const sideProjects = document.querySelectorAll('.side-project');
     const header = document.querySelector('.header');
@@ -228,12 +228,19 @@ window.addEventListener('scroll', () => {
             project.classList.remove('active');
         }
     });
-.
-.
-.
+
+    // .header에 클래스 토글
+    if (anyVisible) {
+        header.classList.add('section-active');
+        mainProject.classList.add('section-active');
+    } else {
+        header.classList.remove('section-active');
+        mainProject.classList.remove('section-active');
+    }
+});
 ```
 <b>섹션 배경 색상을 자연스럽게 변경하는 기능 구현</b>
 - [x] 스크롤 시 .side-project 요소가 화면 하단에서 500px 위 지점에 진입하면 .active 클래스를 추가
 - [x] getBoundingClientRect()로 요소 위치를 계산해 화면 노출 여부를 판단
-- [x] 사용자 경험을 고려해 기준 위치를 조절해 자연스러운 전환 효과를 구현함
+- [x] 동시에 헤더, 인접 섹션들에게도 클래스명을 제어하여 자연스러운 전환 효과 구현
 
