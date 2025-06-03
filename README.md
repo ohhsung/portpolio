@@ -53,14 +53,14 @@ HTML, CSS, JavaScript를 바탕으로 <br>
 
 ```html
     <header class="header">
-      <div class="inner">
-        <h1 class="logo scramble-text">
-          <a href="index.html">5SUNG</a>
-        </h1>
+        <div class="inner">
+            <h1 class="logo scramble-text">
+                <a href="index.html">5SUNG</a>
+            </h1>
 
-    <nav class="nav">
-      <ul class="gnb">
-        <li>
+            <nav class="nav">
+                <ul class="gnb">
+                    <li>
 ```
                       
 웹 표준을 준수하고자 시멘틱 태그를 적극적으로 사용하였으며, <br>
