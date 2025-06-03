@@ -50,7 +50,6 @@ HTML, CSS, JavaScript를 바탕으로 <br>
 <br>
 
 ### 2. HTML
-
 ```html
     <header class="header">
         <div class="inner">
@@ -66,7 +65,47 @@ HTML, CSS, JavaScript를 바탕으로 <br>
 웹 표준을 준수하고자 시멘틱 태그를 적극적으로 사용하였으며, <br>
 각 영역의 의미를 명확히 하여 유지보수성과 가독성을 높였습니다.
 
-### 🎨 3. CSS
-- [x] 중복 스타일 최소화 및 공통 클래스 추출
-- [x] 반응형 웹 완성 (미디어 쿼리 사용)
-- [ ] 초기값, 공통된 요소 하나의 페이지에서 모두 작성 → reset.css, common.css분리하여 정리 예정
+<br>
+
+### 3. CSS
+- [x] 재사용성과 유지보수성을 고려한 공통 클래스 구조
+- [x] 반응형 디자인 구현 (미디어 쿼리)
+- [x] BEM 네이밍 규칙 → 클래스 구조 명확화
+- [x] 트랜지션, 애니메이션 활용 → 인터랙션 개선
+- [x] 접근성을 고려한 색상 대비, 타이포그래피 설정
+- [x] 시맨틱 구조와 연계된 스타일 설계
+
+
+### JavaScript
+```javascript
+  const mm = gsap.matchMedia();
+  mm.add('(min-width: 1001px)', () => {
+      const intro = gsap
+          .timeline({
+              scrollTrigger: {
+                  trigger: '.intro',
+                  start: '0% 0%',
+                  end: '100% 100%',
+                  scrub: 0,
+                  // markers: true,
+              },
+          })
+          .to('.intro', { duration: 5 }, 'intro')
+          .to(
+              '.works .works-title-wrap',
+              { height: '100%', duration: 3 },
+              'intro'
+          );
+  
+      const works = gsap.timeline({
+          scrollTrigger: {
+              trigger: '.works .sticky-work',
+              start: '0% 0%',
+              end: '100% 100%',
+              endTrigger: '.works',
+              scrub: 0,
+              // markers: true,
+          },
+      });
+  });
+```
