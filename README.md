@@ -10,7 +10,7 @@ HTML, CSS, JavaScript를 바탕으로 <br>
 <br>
 <br>
 
-# To do Skill
+# To Do Skill
 
 <p style="display: block;">디자인 툴</p>
 
@@ -49,7 +49,7 @@ HTML, CSS, JavaScript를 바탕으로 <br>
 
 <br>
 
-### 2. HTML 구조
+### 2. HTML
 
 ```html
     <header class="header">
@@ -66,3 +66,7 @@ HTML, CSS, JavaScript를 바탕으로 <br>
 웹 표준을 준수하고자 시멘틱 태그를 적극적으로 사용하였으며, <br>
 각 영역의 의미를 명확히 하여 유지보수성과 가독성을 높였습니다.
 
+### 🎨 3. CSS
+- [x] 중복 스타일 최소화 및 공통 클래스 추출
+- [x] 반응형 웹 완성 (미디어 쿼리 사용)
+- [ ] 초기값, 공통된 요소 하나의 페이지에서 모두 작성 → reset.css, common.css분리하여 정리 예정
