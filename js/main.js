@@ -79,88 +79,48 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const navButtons = Object.values(buttons);
+    let isScrolling = false;
+    const scrollDuration = 800; // 스크롤 애니메이션 시간(ms)
+    const offset = 100;
 
-    let isScrolling = false; // 클릭으로 스크롤 중인지 확인용
-
+    // 스크롤 위치로 이동
     const scrollToSection = (target) => {
         const top = target === 0 ? 0 : target.offsetTop;
         isScrolling = true;
-
         window.scrollTo({ top, behavior: 'smooth' });
-
-        // 스크롤이 끝날 때까지 약간의 여유시간을 둠 (0.8초)
-        setTimeout(() => {
-            isScrolling = false;
-        }, 800);
+        setTimeout(() => (isScrolling = false), scrollDuration);
     };
 
+    // 활성화 버튼 세팅
     const setActive = (activeBtn) => {
         navButtons.forEach((btn) => btn.classList.remove('active'));
         activeBtn.classList.add('active');
     };
 
-    buttons.top.addEventListener('click', (e) => {
-        e.preventDefault();
-        scrollToSection(0);
-        setActive(buttons.top);
+    // 버튼 클릭 시 스크롤 및 활성화 처리 (반복 제거)
+    Object.entries(buttons).forEach(([key, btn]) => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            scrollToSection(key === 'top' ? 0 : sections[key]);
+            setActive(btn);
+        });
     });
 
-    buttons.about.addEventListener('click', (e) => {
-        e.preventDefault();
-        scrollToSection(sections.about);
-        setActive(buttons.about);
-    });
-
-    buttons.main.addEventListener('click', (e) => {
-        e.preventDefault();
-        scrollToSection(sections.main);
-        setActive(buttons.main);
-    });
-
-    buttons.sub.addEventListener('click', (e) => {
-        e.preventDefault();
-        scrollToSection(sections.sub);
-        setActive(buttons.sub);
-    });
-
-    buttons.design.addEventListener('click', (e) => {
-        e.preventDefault();
-        scrollToSection(sections.design);
-        setActive(buttons.design);
-    });
-
-    buttons.contact.addEventListener('click', (e) => {
-        e.preventDefault();
-        scrollToSection(sections.contact);
-        setActive(buttons.contact);
-    });
-
-    // 섹션에 닿으면 버튼 변경 ###############
+    // 스크롤 위치에 따른 버튼 활성화 변경
     window.addEventListener('scroll', () => {
-        if (isScrolling) return; // 클릭 스크롤 중이면 무시
+        if (isScrolling) return;
 
         const scrollY = window.scrollY;
-        const offset = 100;
 
-        const aboutTop = sections.about.offsetTop;
-        const mainTop = sections.main.offsetTop;
-        const subTop = sections.sub.offsetTop;
-        const designTop = sections.design.offsetTop;
-        const contactTop = sections.contact.offsetTop;
-
-        if (scrollY >= contactTop - offset) {
-            setActive(buttons.contact);
-        } else if (scrollY >= designTop - offset) {
-            setActive(buttons.design);
-        } else if (scrollY >= subTop - offset) {
-            setActive(buttons.sub);
-        } else if (scrollY >= mainTop - offset) {
-            setActive(buttons.main);
-        } else if (scrollY >= aboutTop - offset) {
-            setActive(buttons.about);
-        } else {
-            setActive(buttons.top);
+        // 섹션을 내림차순으로 체크해서 가장 가까운 섹션 버튼 활성화
+        const sectionOrder = ['contact', 'design', 'sub', 'main', 'about'];
+        for (const key of sectionOrder) {
+            if (scrollY >= sections[key].offsetTop - offset) {
+                setActive(buttons[key]);
+                return;
+            }
         }
+        setActive(buttons.top);
     });
 });
 
