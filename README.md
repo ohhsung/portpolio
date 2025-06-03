@@ -10,7 +10,7 @@
 <br>
 <br>
 
-## 포트폴리오 반응형 QR코드
+# 포트폴리오 웹페이지 반응형 QR코드
 > **포트폴리오 내의 모든 기획, 디자인, 코딩 작업은 본인의 기여도 100% 임을 알려드립니다.**
 <img src="https://github.com/user-attachments/assets/dcc70fc4-7486-478c-b246-badbb72e6494" alt="QR코드" style="width: 200px;"/>
 
