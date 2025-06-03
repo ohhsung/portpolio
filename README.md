@@ -8,16 +8,19 @@ HTML, CSS, JavaScript를 바탕으로 <br>
 **반응형 웹**, **웹 접근성** 에 최적화된 웹 페이지를 제작합니다.
 
 <p style="display: block;">디자인 툴</p>
+
 `Photoshop`
 `Illustrator`
 `Figma`
 
-퍼블리싱
+<p style="display: block;">퍼블리싱</p>
+
 `HTML5`
 `CSS3 / SCSS`
 `JavaScript`
 
-라이브러리 활용
+<p style="display: block;">라이브러리</p>
+
 `GSAP`
 `Swiper Slide`
 `jQuery`
