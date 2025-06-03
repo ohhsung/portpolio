@@ -84,7 +84,7 @@ HTML, CSS, JavaScript를 바탕으로 <br>
 ### 4. JavaScript
 ```javascript
 
-// 메인 비주얼 가운데 열리는 gsap #######################
+// 메인 비주얼 인트로, 가운데 열리는 gsap #######################
 const mm = gsap.matchMedia();
   mm.add('(min-width: 1001px)', () => {
       const intro = gsap
