@@ -40,9 +40,22 @@ HTML, CSS, JavaScript를 바탕으로 <br>
     기술 : HTML, CSS, JAVASCRIPT, JQUERY, swiper slide, gsap
     프로그램 : 피그마, 비주얼스튜디오코드
 
-### 📁 1. 파일 구조 및 구성
+### 1. 파일 구조 및 구성
 - [x] 역할별로 디렉토리 분리 (`/css`, `/js`, `/img`...)
-- [x] 태그 기본 스타일 제거 → reset.css 파일로 분리 완료
+- [x] 태그 기본 스타일 제거 → reset.css 파일로 분리
 - [x] 파일/폴더 네이밍 일관성 유지
 
+### 2. HTML 구조
+      <header class="header">
+          <div class="inner">
+              <h1 class="logo scramble-text">
+                  <a href="index.html">5SUNG</a>
+              </h1>
+
+              <nav class="nav">
+                  <ul class="gnb">
+                      <li>
+                      
+웹 표준을 준수하고자 시멘틱 태그를 적극적으로 사용하였으며, <br>
+각 영역의 의미를 명확히 하여 유지보수성과 가독성을 높였습니다.
 
