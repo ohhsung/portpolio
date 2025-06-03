@@ -237,3 +237,8 @@ window.addEventListener('scroll', () => {
 .
 .
 ```
+<b>섹션 배경 색상을 자연스럽게 변경하는 기능 구현</b>
+- [x] 스크롤 시 .side-project 요소가 화면 하단에서 500px 위 지점에 진입하면 .active 클래스를 추가
+- [x] getBoundingClientRect()로 요소 위치를 계산해 화면 노출 여부를 판단
+- [x] 사용자 경험을 고려해 기준 위치를 조절해 자연스러운 전환 효과를 구현함
+
