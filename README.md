@@ -50,15 +50,15 @@ HTML, CSS, JavaScript를 바탕으로 <br>
 <br>
 
 ### 2. HTML 구조
-      <header class="header">
-          <div class="inner">
-              <h1 class="logo scramble-text">
-                  <a href="index.html">5SUNG</a>
-              </h1>
+  <header class="header">
+    <div class="inner">
+      <h1 class="logo scramble-text">
+        <a href="index.html">5SUNG</a>
+      </h1>
 
-              <nav class="nav">
-                  <ul class="gnb">
-                      <li>
+    <nav class="nav">
+      <ul class="gnb">
+        <li>
                       
 웹 표준을 준수하고자 시멘틱 태그를 적극적으로 사용하였으며, <br>
 각 영역의 의미를 명확히 하여 유지보수성과 가독성을 높였습니다.
