@@ -129,4 +129,77 @@ const mm = gsap.matchMedia();
 - [x] `scrub: 0` 설정으로 스크롤과 애니메이션 타이밍을 분리해 안정적인 동작 구현  
 - [x] 디버깅용 `markers`는 주석 처리하여 필요 시 활성화 가능
 
+```javascript
+// 헤더 버튼 클릭시 섹션 이동 #######################
+document.addEventListener('DOMContentLoaded', () => {
+    const buttons = {
+        top: document.querySelector('.header-top-btn'),
+        about: document.querySelector('.header-about-btn'),
+        main: document.querySelector('.header-main-btn'),
+        sub: document.querySelector('.header-side-btn'),
+        design: document.querySelector('.header-design-btn'),
+        contact: document.querySelector('.header-contact-btn'),
+    };
+
+    const sections = {
+        about: document.querySelector('.about-me'),
+        main: document.querySelector('.main-project'),
+        sub: document.querySelector('.side-project'),
+        design: document.querySelector('.design'),
+        contact: document.querySelector('.contact'),
+    };
+
+    const navButtons = Object.values(buttons);
+    let isScrolling = false;
+    const scrollDuration = 800; // 스크롤 애니메이션 시간(ms)
+    const offset = 100;
+
+    // 스크롤 위치로 이동
+    const scrollToSection = (target) => {
+        const top = target === 0 ? 0 : target.offsetTop;
+        isScrolling = true;
+        window.scrollTo({ top, behavior: 'smooth' });
+        setTimeout(() => (isScrolling = false), scrollDuration);
+    };
+
+    // 활성화 버튼 세팅
+    const setActive = (activeBtn) => {
+        navButtons.forEach((btn) => btn.classList.remove('active'));
+        activeBtn.classList.add('active');
+    };
+
+    // 버튼 클릭 시 스크롤 및 활성화 처리 (반복 제거)
+    Object.entries(buttons).forEach(([key, btn]) => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            scrollToSection(key === 'top' ? 0 : sections[key]);
+            setActive(btn);
+        });
+    });
+
+    // 스크롤 위치에 따른 버튼 활성화 변경
+    window.addEventListener('scroll', () => {
+        if (isScrolling) return;
+
+        const scrollY = window.scrollY;
+
+        // 섹션을 내림차순으로 체크해서 가장 가까운 섹션 버튼 활성화
+        const sectionOrder = ['contact', 'design', 'sub', 'main', 'about'];
+        for (const key of sectionOrder) {
+            if (scrollY >= sections[key].offsetTop - offset) {
+                setActive(buttons[key]);
+                return;
+            }
+        }
+        setActive(buttons.top);
+    });
+});
+```
+
+- [x] 각 버튼이랑 섹션을 미리 정리해둬서 코드가 짧고 보기 좋게 구성됨  
+- [x] 버튼 누르면 해당 섹션으로 부드럽게 스크롤 이동되면서, 눌린 버튼만 강조됨  
+- [x] 스크롤할 때도 현재 위치에 따라 자동으로 버튼 강조가 바뀌도록 처리  
+- [x] 스크롤 중엔 클릭 이벤트랑 겹치지 않게 `isScrolling`으로 체크함
+
+
 
