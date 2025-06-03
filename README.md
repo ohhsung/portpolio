@@ -40,8 +40,6 @@ HTML, CSS, JavaScript를 바탕으로 <br>
     기술 : HTML, CSS, JAVASCRIPT, JQUERY, swiper slide, gsap
     프로그램 : 피그마, 비주얼스튜디오코드
 
-## 🔍 Self Review
-
 ### 📁 1. 파일 구조 및 구성
 - [x] 역할별로 디렉토리 분리 (`/css`, `/js`, `/img`...)
 - [x] 태그 기본 스타일 제거 → reset.css 파일로 분리 완료
