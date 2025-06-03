@@ -2,7 +2,7 @@
 
 <img src="https://github.com/user-attachments/assets/9ceb2541-cbae-4082-be50-44918069229a" alt="ID Photo" style="width: 200px;"/>
 
-<div style="background: #ddd;">
+<div style="background: #dddddd;">
 안녕하세요!  
 저는 **웹 퍼블리셔 이오성**입니다.  
 HTML, CSS, JavaScript를 바탕으로 <br>
