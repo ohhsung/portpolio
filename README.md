@@ -12,6 +12,13 @@ HTML, CSS, JavaScript를 바탕으로 <br>
 <br>
 <br>
 
+> **포트폴리오 내의 모든 기획, 디자인, 코딩 작업은 본인의 기여도 100% 임을 알려드립니다.**
+
+<br>
+<br>
+<br>
+<br>
+
 # To Do Skill
 
 <p style="display: block;">디자인 툴</p>
@@ -32,13 +39,6 @@ HTML, CSS, JavaScript를 바탕으로 <br>
 `Swiper Slide`
 `jQuery`
 `AOS`
-
-<br>
-<br>
-<br>
-<br>
-
-> **포트폴리오 내의 모든 기획, 디자인, 코딩 작업은 본인의 기여도 100% 임을 알려드립니다.**
 
 <br>
 <br>
