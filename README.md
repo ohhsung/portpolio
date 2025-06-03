@@ -76,7 +76,7 @@ HTML, CSS, JavaScript를 바탕으로 <br>
 - [x] 시맨틱 구조와 연계된 스타일 설계
 
 
-### JavaScript
+### 4. JavaScript
 ```javascript
 const mm = gsap.matchMedia();
   mm.add('(min-width: 1001px)', () => {
@@ -114,3 +114,5 @@ const mm = gsap.matchMedia();
 - [x] `scrollTrigger` 옵션으로 스크롤 시작/종료 지점과 `endTrigger`를 명확히 지정하여 세밀한 애니메이션 제어  
 - [x] `scrub: 0` 설정으로 스크롤과 애니메이션 타이밍을 분리해 안정적인 동작 구현  
 - [x] 디버깅용 `markers`는 주석 처리하여 필요 시 쉽게 활성화 가능
+
+
