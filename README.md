@@ -9,16 +9,16 @@ HTML, CSS, JavaScript를 바탕으로 <br>
 
 ### 디자인 툴
 `Photoshop`
-✅ Illustrator <br>
-✅ Figma <br>
+`Illustrator`
+`Figma`
 
 ### 퍼블리싱
-✅ HTML5 <br>
-✅ CSS3 / SCSS <br>
-✅ JavaScript <br>
+`HTML5`
+`CSS3 / SCSS`
+`JavaScript`
 
 ### 라이브러리 활용
-✅ **GSAP** 활용한 애니메이션 구현 <br>
-✅ **Swiper Slide** 활용한 슬라이드 UI 제작 <br>
-✅ **jQuery** 활용한 이벤트 처리 <br>
-✅ **AOS** 활용한 스크롤 애니메이션 효과 구현
+`GSAP`
+`Swiper Slide`
+`jQuery`
+`AOS`
