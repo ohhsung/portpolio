@@ -89,7 +89,7 @@
 
 ### 4. JavaScript
 
-> 1
+> 주요코드 1
 ```javascript
 // 메인 비주얼 인트로, 가운데 열리는 gsap #######################
 const mm = gsap.matchMedia();
@@ -133,7 +133,7 @@ const mm = gsap.matchMedia();
 <br>
 <br>
 
-> 1
+> 주요코드 2
 ```javascript
 // 헤더 버튼 클릭시 섹션 이동 #######################
 document.addEventListener('DOMContentLoaded', () => {
